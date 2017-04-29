@@ -3,8 +3,8 @@
 To install, run the following commands:
 
 ```
-git clone ...
-cd ...
+git clone https://github.com/CarsonMckinstry/recipes-app.git
+cd recipes-app
 npm install
 ```
 
