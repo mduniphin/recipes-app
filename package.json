@@ -12,5 +12,9 @@
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.8.0"
+  },
+  "dependencies": {
+    "mongoose": "^4.9.7",
+    "restify": "^4.3.0"
   }
 }
