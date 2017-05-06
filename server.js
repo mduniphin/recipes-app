@@ -1,9 +1,11 @@
 var restify = require('restify');
 var mongoose = require('mongoose');
+var config = require('./config.json');
 var server = restify.createServer();
 
 const port = 8088;
-const dbserver = 'mongodb://localhost/testing'
+const dbserver = config.dburl;
+console.log(dbserver);
 
 mongoose.connect(dbserver);
 var db = mongoose.connection;
