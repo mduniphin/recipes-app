@@ -19,10 +19,10 @@ npm install
 ## Todo list
 1. import recipes.json to the database (Maxx)
 2. create routes (Spencer)
-  - get recipes list
-  - see Todo Application from week 5 (https://github.com/okcoders/ok-coders-spring-2017-week5)
+   - get recipes list
+   - see Todo Application from week 5 (https://github.com/okcoders/ok-coders-spring-2017-week5)
 3. serve static files (Aaron)
-  - using restify (http://restify.com/#serve-static)
+    - using restify (http://restify.com/#serve-static)
 4. Create initial Angular app (Carson)
-  - Show recipes on the screen
-    - pull from database
+    - Show recipes on the screen
+     - pull from database
