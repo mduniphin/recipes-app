@@ -17,10 +17,12 @@ npm install
 
 
 ## Todo list
-- ~Spin up the server (Aaron)~
-- Create the databse on [mLab](https://mlab.com/) (Maxx)
-  - create the basic model (/models/recipes.js)
-  - add the database url to the config.js file
-- Create sample data (3-4 recipes) and format them in JSON (Spencer)
-  - Add these to recipes.json
-- Create initial Angular app (Carson)
+1. import recipes.json to the database (Maxx)
+2. create routes (Spencer)
+  - get recipes list
+  - see Todo Application from week 5 (https://github.com/okcoders/ok-coders-spring-2017-week5)
+3. serve static files (Aaron)
+  - using restify (http://restify.com/#serve-static)
+4. Create initial Angular app (Carson)
+  - Show recipes on the screen
+    - pull from database
