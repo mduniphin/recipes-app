@@ -15,7 +15,7 @@ function config ($stateProvider, $urlRouterProvider) {
       url: '/',
       template: "<h1>{{ main.message }}</h1>",
       controller: mainCtrl,
-      controllerAs: "vm"
+      controllerAs: "main"
     });
 
 }
