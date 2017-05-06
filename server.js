@@ -16,6 +16,13 @@ db.once('open', function() {
   console.log("Mongoose connection established.");
 });
 
+const options = {
+  directory: './public',
+  default: 'index.html'
+}
+
+server.get('/', restify.serveStatic(options));
+
 server.listen(port, function() {
   console.log('%s listening on port %s', server.name, port);
 });

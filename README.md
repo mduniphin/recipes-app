@@ -17,7 +17,7 @@ npm install
 
 
 ## Todo list
-- Spin up the server (Aaron)
+- ~Spin up the server (Aaron)~
 - Create the databse on [mLab](https://mlab.com/) (Maxx)
   - create the basic model (/models/recipes.js)
   - add the database url to the config.js file
