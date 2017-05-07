@@ -10,4 +10,4 @@ var schema = new Schema({
 	is_active: Schema.Types.Boolean
 });
 
-module.exports = mongoose.model('auth', schema);
+module.exports = mongoose.model('recipes', schema);
