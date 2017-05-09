@@ -3,12 +3,12 @@
 
   angular
     .module('recipesApp')
-    .controller('mainCtrl', mainCtrl);
+    .controller('mainController', mainCtrl);
 
-
-  function mainCtrl () {
+  function mainCtrl() {
     var vm = this;
 
-    vm.message = "You're at the recipes app!";
+    vm.message = "You're connected!";
   }
+
 }());
