@@ -5,10 +5,11 @@
     .module('recipesApp')
     .controller('mainController', mainCtrl);
 
-  function mainCtrl() {
+  function mainCtrl( recipesFactory) {
     var vm = this;
 
-    vm.message = "You're connected!";
+    vm.recipes = recipesFactory.getRecipes();
+
   }
 
 }());
