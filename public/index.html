@@ -9,9 +9,20 @@
   </head>
   <body ng-controller="mainController as main">
 
-    <h1>{{ main.message }}</h1>
+    <div ng-repeat="recipe in main.recipes">
+      <h1>{{ recipe.title }}</h1>
+      <p>{{ recipe.author }}</p>
+      <p>{{ recipe.date | date:long }}</p>
+      <ul>
+        <li ng-repeat="ingredient in recipe.ingredients">{{ ingredient }}</li>
+      </ul>
+      <ol>
+        <li ng-repeat="instruction in recipe.instructions">{{ instruction }}</li>
+      </ol>
+    </div>
 
     <script src="js/core.js" charset="utf-8"></script>
+    <script src="js/components/main.fac.js" charset="utf-8"></script>
     <script src="js/components/main.ctr.js" charset="utf-8"></script>
   </body>
 </html>
